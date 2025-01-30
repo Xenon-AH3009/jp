@@ -27,9 +27,9 @@ public class GamePanel extends JPanel {
             game.getField().getWidth() * cellSize,
             game.getField().getLength() * cellSize
         ));
-        JButton suggestion=new JButton("Suggestion");
-        suggestion.addActionListener(e -> game.getPlayers()[0].getNode().suggest(game.getPlayers()[0]));
-        add(suggestion, BorderLayout.SOUTH);
+        //JButton suggestion=new JButton("Suggestion");
+        //suggestion.addActionListener(e -> game.getPlayers()[0].getNode().suggest(game.getPlayers()[0]));
+        //add(suggestion, BorderLayout.SOUTH);
     }
 
     public JButton getSuggestion() {
